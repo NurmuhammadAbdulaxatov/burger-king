@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.burger-king {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  border: 11px solid brown;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: brown;
+}
+.menu h1 {
+  text-align: center;
+}
+.menu .nothing {
+  width: 150px;
+  height: 70px;
+  background-color: rgb(75, 75, 75);
+  border-radius: 10px 10px 40% 40%;
+  position: absolute;
+  transform: translate(110px, -30px);
+}
+.menu .page {
+  border: 4px solid gray;
+  height: 560px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px 20px;
+}
+.menu .page i {
+  position: absolute;
+  margin-left: 200px;
+  transform: translateY(-50px);
+  color: red;
+  cursor: pointer;
+}
+.menu .page .list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.menu .page .list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  font-size: 25px;
+}
+.menu .page .list ul .list-1 {
+  border-bottom: 2px solid black;
+  padding-right: 150px;
+}
+.menu .page .list ul li {
+  border-bottom: 2px solid black;
+}
+.menu .page .list ul li button {
+  all: unset;
+  color: white;
+  background-color: green;
+  font-size: 17px;
+  border-radius: 6px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.menu .page .list ul li button:hover {
+  opacity: 0.7;
+}
+.menu .page span {
+  font-size: 25px;
+  font-weight: 800;
+}
+.menu .page .submit {
+  all: unset;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 75px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.menu .page .submit:hover {
+  opacity: 0.7;
+}
+.menu .page .num {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bread-top {
+  z-index: 999;
+  margin-top: 250px;
+  position: relative;
+  transform: translateY(60px);
+}
+
+.bread-bottom {
+  margin-top: 40px;
+}/*# sourceMappingURL=main.css.map */
